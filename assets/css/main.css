@@ -1,10 +1,22 @@
+html {
+	height: 100%;
+}
+
 body{
 	background-color: #f9f9f9;
 	font-family: "Crimson Text";
+	height: 100%;
 }
 
 .main{
 	background: #fff;
+	flex: 1 1 auto;
+}
+
+#index{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
 }
 
 .home-description{
@@ -39,7 +51,7 @@ body{
 @media (min-width: 778px)
 {
 		.main{
-			height: 100vh;
+			height: 100%;
 			overflow: hidden;
 		}
 
@@ -109,9 +121,10 @@ p{
 
 
 footer{
+	/*flex: 0 1 20px;*/
 	padding: 22px 0 10px 0;
 	font-style: italic;
-	}
+}
 
 
 .back{
